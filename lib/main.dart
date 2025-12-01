@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
           title:Text('MyApp'),
           backgroundColor: Colors.green,
         ),
-        body:Text('hello test'),
+        body:Text('hello test',style:TextStyle(fontSize: 28,fontWeight: FontWeight.bold,color: Colors.green,backgroundColor: const Color.fromARGB(255, 209, 244, 54))),
+
       )
     );
   }
