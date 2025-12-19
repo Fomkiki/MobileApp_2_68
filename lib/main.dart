@@ -104,7 +104,7 @@ class MyApp extends StatelessWidget {
                       SizedBox(
                         width: 200,
                         child: Text(
-                          'ชำระเงินจำนวน',
+                          'ชำระเงินจำนวน : ',
                           style: TextStyle(
                             fontSize: 30,
                           ),
@@ -129,7 +129,7 @@ class MyApp extends StatelessWidget {
                       SizedBox(
                         width: 200,
                         child: Text(
-                          'ยอดเงินคงเหลือ',
+                          'ยอดเงินคงเหลือ : ',
                           style: TextStyle(
                             fontSize: 30,
                           ),
@@ -148,13 +148,16 @@ class MyApp extends StatelessWidget {
                   ),
                   Row(
                     children: [
+                      
+                      
                       SizedBox(
                         width: 30,
                       ),
                       SizedBox(
+                        
                         width: 200,
                         child: Text(
-                          'DATE',
+                          'วันที่ชำระ :',
                           style: TextStyle(
                             fontSize: 30,
                           ),
