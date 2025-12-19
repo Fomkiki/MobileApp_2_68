@@ -55,15 +55,25 @@ class MyApp extends StatelessWidget {
                   SizedBox(
                     height: 60,
                   ),
-                  SizedBox(
-                    height: 50,
-                    child: Text(
-                      'ขอบคุณที่ใช้บริการ',
-                      style: TextStyle(
-                        fontSize: 30,
+                  Row(
+                    children: [
+                      SizedBox(width: 830,),
+                      SizedBox(
+                        height: 50,
+                        child: Text(
+                          'ขอบคุณที่ใช้บริการ',
+                          style: TextStyle(
+                            fontSize: 30,
+                          ),
+                        ),
                       ),
-                    ),
+                      IconButton(
+                      icon: const Icon(Icons.thumb_up_alt_outlined),
+                      onPressed: () {},
+                      ),
+                    ],
                   ),
+                  
                   SizedBox(
                     height: 20,
                   ),
