@@ -31,6 +31,8 @@ migrate_working_dir/
 .pub/
 /build/
 
+
+
 # Symbolication related
 app.*.symbols
 
@@ -41,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# =========================
+# Flutter Windows (generated)
+# =========================
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.*
+windows/flutter/generated_plugins.cmake
+windows/CMakeLists.txt
+windows/*.vcxproj*
+windows/*.filters
+windows/*.user
