@@ -41,23 +41,28 @@ class MyApp extends StatelessWidget {
                 children: [
                   Text('GAME-CENTER',
                       style: TextStyle(
-                        fontSize: 28,
+                        fontSize: 50,
                         fontWeight: FontWeight.bold,
                         color: const Color.fromARGB(214, 153, 0, 145),
                       )),
                   SizedBox(
-                    height: 150,
+                    height: 20,
+                  ),
+                  SizedBox(
+                    height: 200,
                     child: Image.asset(
                       'assets/images/imgLogo.jpg',
                       width: 500,
                     ),
                   ),
                   SizedBox(
-                    height: 60,
+                    height: 30,
                   ),
                   Row(
                     children: [
-                      SizedBox(width: 830,),
+                      SizedBox(
+                        width: 830,
+                      ),
                       SizedBox(
                         height: 50,
                         child: Text(
@@ -68,17 +73,16 @@ class MyApp extends StatelessWidget {
                         ),
                       ),
                       IconButton(
-                      icon: const Icon(Icons.thumb_up_alt_outlined),
-                      onPressed: () {},
+                        icon: const Icon(Icons.thumb_up_alt_outlined),
+                        onPressed: () {},
                       ),
                     ],
                   ),
-                  
                   SizedBox(
                     height: 20,
                   ),
                   SizedBox(
-                    height: 150,
+                    height: 100,
                     child: Image.asset(
                       'assets/images/check.jpg',
                       width: 500,
@@ -99,14 +103,14 @@ class MyApp extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 30,
+                        width: 250,
                       ),
                       SizedBox(
                         width: 200,
                         child: Text(
                           'ชำระเงินจำนวน : ',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                           ),
                         ),
                       ),
@@ -115,7 +119,7 @@ class MyApp extends StatelessWidget {
                         child: Text(
                           '500 บาท',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                           ),
                         ),
                       ),
@@ -124,14 +128,14 @@ class MyApp extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 30,
+                        width: 250,
                       ),
                       SizedBox(
                         width: 200,
                         child: Text(
                           'ยอดเงินคงเหลือ : ',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                           ),
                         ),
                       ),
@@ -140,7 +144,7 @@ class MyApp extends StatelessWidget {
                         child: Text(
                           '2000 บาท',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                           ),
                         ),
                       ),
@@ -148,18 +152,15 @@ class MyApp extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      
-                      
                       SizedBox(
-                        width: 30,
+                        width: 250,
                       ),
                       SizedBox(
-                        
                         width: 200,
                         child: Text(
                           'วันที่ชำระ :',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                           ),
                         ),
                       ),
@@ -168,10 +169,59 @@ class MyApp extends StatelessWidget {
                         child: Text(
                           '15/12/2025',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                           ),
                         ),
                       ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      SizedBox(
+                        width: 250,
+                      ),
+                      SizedBox(
+                        width: 200,
+                        child: Text(
+                          'ค่าธรรมเนียม :',
+                          style: TextStyle(
+                            fontSize: 20,
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 500,
+                        child: Text(
+                          '8 บาท',
+                          style: TextStyle(
+                            fontSize: 20,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      SizedBox(
+                        width: 1200,
+                      ),
+                      SizedBox(
+                        width: 230,
+                        child: Text(
+                          'บริษัท Game-center',
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                        child: IconButton(
+                          onPressed: () {},
+                          icon: const Icon(Icons.computer_sharp),
+                        ),
+                      )
                     ],
                   ),
                   SizedBox(
@@ -180,7 +230,7 @@ class MyApp extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 1500,
+                        width: 1200,
                       ),
                       ElevatedButton(
                         onPressed: () {
