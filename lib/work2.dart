@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/about_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Scaffold(
+        home:AboutPage()
+    );
+  }
+}
+
+
+
+/*Scaffold(
           appBar: AppBar(
             title: Text('MyApp'),
             backgroundColor: Colors.yellow,
@@ -148,5 +156,5 @@ class MyApp extends StatelessWidget {
             )
           ])),
         ));
-  }
-}
+
+        */
