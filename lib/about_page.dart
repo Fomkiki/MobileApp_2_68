@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/mylist_page.dart';
 import 'package:flutter_application_1/welcome_page.dart';
 
 class AboutPage extends StatelessWidget {
@@ -27,7 +28,7 @@ class AboutPage extends StatelessWidget {
             leading: IconButton(
               onPressed: () {
                 debugPrint('leading icon pressed');
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const WelcomePage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) =>  MylistPage()));
               },
               icon: const Icon(Icons.arrow_back),
             ),
