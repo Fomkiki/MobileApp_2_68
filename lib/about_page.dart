@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:flutter_application_1/mylist_page.dart';
 import 'package:flutter_application_1/welcome_page.dart';
 
@@ -36,3 +36,4 @@ class AboutPage extends StatelessWidget {
           body: const Text('welcome to my app'),);
   }
 }
+*/

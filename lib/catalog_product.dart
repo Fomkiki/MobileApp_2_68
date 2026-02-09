@@ -1,7 +1,7 @@
 
 
 
-import 'package:flutter_application_1/models/product.dart';
+/*import 'package:flutter_application_1/models/product.dart';
 
 class CatalogProducts {
     static final items = [
@@ -39,4 +39,4 @@ class CatalogProducts {
     ];
       
     
-}
+}*/

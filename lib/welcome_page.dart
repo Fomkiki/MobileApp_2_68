@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:flutter_application_1/about_page.dart';
 import 'package:flutter_application_1/display_page.dart';
 
@@ -88,4 +88,4 @@ class _WelcomeState extends State<WelcomePage> {
               ),
           ));
   }
-}
+}*/

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:flutter_application_1/catalog_product.dart';
 import 'package:flutter_application_1/models/product.dart';
 import 'package:flutter_application_1/mylist_page.dart';
@@ -40,3 +40,4 @@ class DetailPage extends StatelessWidget {
           );
   }
   }
+*/
